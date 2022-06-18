@@ -91,11 +91,13 @@ img {
 .fourth_container {
     width: 50%;
     text-align: center;
+    background-color: white;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 2.5rem 0;
     border-radius: 20px;
     margin: auto;
     margin-bottom: -5.5rem;
+    z-index: 99;
 }
 .fourth_container button {
     box-sizing: border-box;
@@ -113,6 +115,7 @@ footer {
     background-color: rgb(0,37,46);
     padding: 9rem 3.5rem 4rem;
     color: white;
+    position: relative;
 }
 .logo_bottom {
     width: 450px;
